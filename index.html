@@ -15,10 +15,11 @@
       <form id="latinator">
         <div class="form-group">
           <label for="userType">Enter something to translate into Pig Latin:</label>
-          <input id="userType" type="text">
+          <input id="userInput" type="text">
         </div>
 
-        <button type="submit" class="btn">Translate!</button>
+        <button onclick="submit()" class="btn">Translate!</button>
+        <p id="demo"></p>
       </form>
 
       <div id="result">
